@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Animal Rescue Consortium | NY/PR and Beyond</title>
-  <meta name="description" content="Animal Rescue Consortium — We Go Where Others Can't. Street rescue, abuse recovery & high-risk animal placements. 501(c)(3) nonprofit based in New York." />
+  <title>The Animal Rescue Consortium Inc. | NY/PR and Beyond</title>
+  <meta name="description" content="The Animal Rescue Consortium Inc. — We Go Where Others Can't. Street rescue, abuse recovery & high-risk animal placements. 501(c)(3) nonprofit incorporated in New York. EIN: 33-4203273." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -728,6 +728,55 @@
       .nav-links { display: none; }
     }
 
+    .mission-real-content {
+      background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+      border: 1px solid rgba(232,98,26,0.25);
+      border-radius: var(--radius);
+      padding: 2rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .mission-real-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+    .mission-real-header strong {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.3rem;
+      color: var(--white);
+    }
+    .mission-real-icon { font-size: 1.6rem; }
+    .mission-real-caption {
+      color: rgba(255,255,255,0.65);
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+    .mission-real-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+      margin-bottom: 0.5rem;
+    }
+    .mission-real-stat {
+      background: rgba(232,98,26,0.08);
+      border: 1px solid rgba(232,98,26,0.2);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.7);
+      line-height: 1.4;
+    }
+    .mission-real-stat span {
+      display: block;
+      font-weight: 700;
+      color: var(--orange-light);
+      margin-bottom: 2px;
+    }
     @media (max-width: 600px) {
       section { padding: 70px 5%; }
       .hero-buttons { flex-direction: column; align-items: center; }
@@ -783,20 +832,26 @@
   <section id="mission">
     <div class="mission-grid">
       <div class="mission-image-wrap">
-        <img
-          src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80"
-          alt="Rescue team helping animals on the street"
-        />
-        <div class="mission-image-overlay">
-          Hands-on street rescue in New York City
-          <span>Serving NY, PR, and Beyond since 2022</span>
+        <div class="mission-real-content">
+          <div class="mission-real-header">
+            <span class="mission-real-icon">📸</span>
+            <strong>See Our Real Rescues</strong>
+          </div>
+          <p class="mission-real-caption">Follow us on Instagram to see our street rescues, abuse recovery cases, and successful adoptions in real time — directly from our team on the ground.</p>
+          <div class="mission-real-stats">
+            <div class="mission-real-stat"><span>NYC streets</span>Emergency response</div>
+            <div class="mission-real-stat"><span>Puerto Rico</span>Cross-border rescues</div>
+            <div class="mission-real-stat"><span>Abuse survivors</span>Trauma-informed care</div>
+            <div class="mission-real-stat"><span>High-risk cases</span>Other orgs declined</div>
+          </div>
+          <a href="https://www.instagram.com/animalrescueconsortium/" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:1.5rem;display:inline-block;">View Our Rescues on Instagram</a>
         </div>
       </div>
       <div>
         <div class="section-label">Our Mission</div>
         <h2 class="section-title">We <span class="accent">Go Where</span><br />Others Can't</h2>
         <p class="section-desc">
-          Animal Rescue Consortium is a grassroots 501(c)(3) non-profit founded in New York in 2022. We specialize in the rescues that no one else will take — street animals in crisis, abuse survivors, and high-risk placements that require dedicated, hands-on intervention.
+          The Animal Rescue Consortium Inc. is a registered 501(c)(3) non-profit incorporated in New York in 2024. We specialize in the rescues that no one else will take — street animals in crisis, abuse survivors, and high-risk placements that require dedicated, hands-on intervention.
         </p>
         <div class="mission-cards">
           <div class="mission-card">
@@ -838,7 +893,7 @@
       <div class="section-label">Our Impact</div>
       <h2 class="section-title" style="color:white;">Every Life <span class="accent">Matters</span></h2>
       <p class="section-desc">
-        Since 2022, our small but mighty team has been making a real difference — one rescue at a time. Every animal we reach deserves a second chance.
+        Our small but mighty team has been making a real difference — one rescue at a time. Every animal we reach deserves a second chance.
       </p>
       <div class="stats-grid">
         <div class="stat-card">
@@ -850,8 +905,8 @@
           <div class="stat-label">States &amp; Territories</div>
         </div>
         <div class="stat-card">
-          <div class="stat-number">2022</div>
-          <div class="stat-label">Founded in NY</div>
+          <div class="stat-number">2024</div>
+          <div class="stat-label">Incorporated in NY</div>
         </div>
         <div class="stat-card">
           <div class="stat-number">100%</div>
@@ -898,38 +953,44 @@
     </div>
   </section>
 
-  <!-- TEAM -->
+  <!-- BOARD OF DIRECTORS -->
   <section id="team">
     <div class="team-inner">
       <div class="team-header">
-        <div class="section-label">Core Leadership</div>
-        <h2 class="section-title">The People Behind <span class="accent">the Paws</span></h2>
-        <p class="section-desc">A close-knit, hands-on team dedicated to rescuing animals and building a compassionate community.</p>
+        <div class="section-label">Governance</div>
+        <h2 class="section-title">Board of <span class="accent">Directors</span></h2>
+        <p class="section-desc">The Animal Rescue Consortium Inc. is governed by a volunteer board registered with New York State. Our leadership is publicly listed in the NY State Charities Registry.</p>
       </div>
-      <div class="team-grid">
+      <div class="team-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
         <div class="team-card">
           <div class="team-avatar">🧢</div>
-          <h3>Tony Pagano</h3>
-          <div class="team-role">Founder &amp; Director</div>
-          <p class="team-desc">Established Animal Rescue Consortium in 2022 in New York. Tony leads street rescue operations and drives the organization's vision to go where others can't.</p>
+          <h3>Anthony Pagano</h3>
+          <div class="team-role">President</div>
+          <p class="team-desc">Founder and President of The Animal Rescue Consortium Inc. Leads street rescue operations across New York and Puerto Rico.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">📋</div>
+          <h3>Alexa Pagano</h3>
+          <div class="team-role">Secretary &amp; Treasurer</div>
+          <p class="team-desc">Oversees financial operations and organizational records for The Animal Rescue Consortium Inc.</p>
         </div>
         <div class="team-card">
           <div class="team-avatar">🐾</div>
-          <h3>Leah</h3>
-          <div class="team-role">Core Team</div>
-          <p class="team-desc">An essential member of daily rescue operations, fostering networks, and advocacy campaigns that give animals their second chance.</p>
+          <h3>Leah Olverd</h3>
+          <div class="team-role">Director</div>
+          <p class="team-desc">Board Director committed to rescue operations, fostering networks, and advocacy for animals in need.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">🤝</div>
+          <h3>Nicholas Andryuk</h3>
+          <div class="team-role">Director</div>
+          <p class="team-desc">Board Director supporting the organization's governance and mission to rescue, rehabilitate, and rehome animals.</p>
         </div>
         <div class="team-card">
           <div class="team-avatar">💛</div>
-          <h3>Lindsey</h3>
-          <div class="team-role">Core Team</div>
-          <p class="team-desc">Dedicated to hands-on care, community outreach, and ensuring every rescued animal receives the love and attention they deserve.</p>
-        </div>
-        <div class="team-card" style="background: linear-gradient(135deg, rgba(232,98,26,0.08), rgba(232,98,26,0.02)); border: 2px dashed rgba(232,98,26,0.3);">
-          <div class="team-avatar" style="background: rgba(232,98,26,0.15);">🤝</div>
-          <h3>You?</h3>
-          <div class="team-role">Volunteer</div>
-          <p class="team-desc">We're always looking for passionate people to join our mission. Volunteer, foster, or help spread the word about our rescues.</p>
+          <h3>Andrew Rasiej</h3>
+          <div class="team-role">Director</div>
+          <p class="team-desc">Board Director contributing to strategic oversight and community outreach efforts of The Animal Rescue Consortium Inc.</p>
         </div>
       </div>
     </div>
@@ -942,10 +1003,22 @@
         <div class="section-label" style="background:rgba(232,98,26,0.25); color:var(--orange-light);">About &amp; Contact</div>
         <h2 class="section-title">Based in <span class="accent">New York</span>,<br />Reaching Beyond</h2>
         <p class="section-desc" style="color:rgba(255,255,255,0.65);">
-          Animal Rescue Consortium is a registered 501(c)(3) non-profit organization. Founded in 2022 by Tony Pagano, we are a fully grassroots, volunteer-driven operation committed to the most vulnerable animals in our communities.
+          The Animal Rescue Consortium Inc. is a registered 501(c)(3) non-profit organization incorporated in New York on October 30, 2024. Founded by Anthony Pagano, we are a fully grassroots, volunteer-driven operation committed to the most vulnerable animals in our communities.
         </p>
         <div class="about-extra">
           <p>We believe every animal deserves a fighting chance — regardless of how difficult their situation is. From New York City streets to Puerto Rico, we cross every boundary to make that happen.</p>
+        </div>
+        <div class="about-extra" style="margin-top:1.5rem; background:rgba(232,98,26,0.06); border:1px solid rgba(232,98,26,0.2); border-radius:10px; padding:1.25rem 1.5rem;">
+          <h4 style="font-family:'Montserrat',sans-serif; color:var(--orange-light); font-size:0.85rem; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:0.75rem;">Legal &amp; Transparency</h4>
+          <div style="display:grid; gap:0.4rem; font-size:0.88rem; color:rgba(255,255,255,0.7);">
+            <div><strong style="color:rgba(255,255,255,0.9);">Legal Name:</strong> The Animal Rescue Consortium Inc.</div>
+            <div><strong style="color:rgba(255,255,255,0.9);">EIN:</strong> 33-4203273</div>
+            <div><strong style="color:rgba(255,255,255,0.9);">Status:</strong> 501(c)(3) Tax-Exempt Nonprofit</div>
+            <div><strong style="color:rgba(255,255,255,0.9);">Incorporated:</strong> October 30, 2024 — New York State</div>
+            <div><strong style="color:rgba(255,255,255,0.9);">NY State DOS ID:</strong> 7453157</div>
+            <div><strong style="color:rgba(255,255,255,0.9);">NY Charities Registration:</strong> Active (Executive Law 7-A &amp; EPTL 8-1.4)</div>
+            <div><strong style="color:rgba(255,255,255,0.9);">Purpose:</strong> Rescue, rehabilitate and rehome animals</div>
+          </div>
         </div>
       </div>
       <div class="contact-block">
@@ -1022,8 +1095,9 @@
       </div>
       <div class="footer-bottom">
         <p>876 Broadway, Floor 2 · New York, NY 10003 · <a href="mailto:contact@theanimalrescueconsortiuminc.org" style="color:rgba(255,255,255,0.45); text-decoration:none;">contact@theanimalrescueconsortiuminc.org</a></p>
-        <p style="margin-top:6px;">Animal Rescue Consortium is a registered 501(c)(3) non-profit organization. All donations are tax-deductible.</p>
-        <p style="margin-top:6px;">© 2026 Animal Rescue Consortium Inc. · Founded 2022 by Tony Pagano</p>
+        <p style="margin-top:6px;">The Animal Rescue Consortium Inc. is a registered 501(c)(3) non-profit organization. EIN: 33-4203273. All donations are tax-deductible.</p>
+        <p style="margin-top:6px;">NY State DOS ID: 7453157 · Incorporated October 30, 2024 · NY Charities Registration Active</p>
+        <p style="margin-top:6px;">© 2026 The Animal Rescue Consortium Inc. · President: Anthony Pagano</p>
       </div>
     </div>
   </footer>
